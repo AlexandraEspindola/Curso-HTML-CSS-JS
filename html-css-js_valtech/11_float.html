@@ -15,34 +15,71 @@
             width: 80%;
             padding: 15px;
             background: #CCC;
+            overflow: auto;
         }
 
         #container div{
-            width: 150px;
+            width: 80px;
             height: 50px;
             border: 2px solid red;
             margin: 5px;
+        }      
+
+        #div1{
+            float: left;
         }
 
+        #div2{
+            float: left;
+        }
+
+        #div3{
+            background: yellow;
+            float: left;
+        }
         
+        header{
+            background: #CCC;
+            height: 50px;
+        }
+
+        nav{
+            width: 25%;
+            height: 50px;
+            background: orange;
+            float:left;
+        }
+
+      main{
+          
+          width: 70%;
+          height: 100px;
+          background: yellow;
+          float: left;
+      }
+
+      footer{
+          height: 50px;
+          background: blue;
+          clear:both;
+      }
 
     </style>
-
-
 </head>
 
 <body>
-
     <h1>float</h1>
-
     <div id="container">
         <div id="div1">div1</div>
         <div id="div2">div2</div>
         <div id="div3">div3</div>
     </div>
 
+<hr>
 
-
+    <header>Header</header>
+    <nav>Nav</nav>
+    <main>Main</main>
+    <footer>Footer</footer>
 </body>
-
 </html>
