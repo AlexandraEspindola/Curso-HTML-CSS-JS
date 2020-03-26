@@ -24,8 +24,8 @@ body {
 }
 
 .hero-content p{
-    background-color: rgba(0,0,0, .8);
-    display: inline-block;
+    background-color: rgba(0,0,0, .8); /*0.8 ou .8*/
+    display: inline-block; /*deixa como um bloquinho*/
     padding: 10px;
     border-bottom: 2px solid white;
 }
